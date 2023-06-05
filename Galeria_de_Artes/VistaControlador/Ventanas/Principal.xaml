@@ -1,0 +1,65 @@
+﻿<Page x:Name="Prins" x:Class="Galeria_de_Artes.VistaControlador.Ventanas.Principal"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Galeria_de_Artes.VistaControlador.Ventanas"
+      xmlns:uc="clr-namespace:Galeria_de_Artes.VistaControlador.User_control"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Principal" Loaded="Prins_Loaded">
+
+    <Page.Resources>
+        <ResourceDictionary>
+            <RoutedUICommand x:Key="salir"/>
+            <RoutedUICommand x:Key="galeria"/>
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <Page.InputBindings>
+        <KeyBinding Key="Esc" Command="{StaticResource salir}"/>
+        <KeyBinding Key="Tab" Command="{StaticResource galeria}"/>
+    </Page.InputBindings>
+
+    <Page.CommandBindings>
+        <CommandBinding Command="{StaticResource salir}" Executed="Cerrar_Click"/>
+        <CommandBinding Command="{StaticResource galeria}" Executed="Mi_Galeria_Click"/>
+    </Page.CommandBindings>
+
+
+
+    <Grid>
+        <Image Source="/Resources/Fondo_Botero.jpg" Stretch="Fill"/>
+
+        <Menu x:Name="menus" Height="23" Background="{x:Null}" VerticalAlignment="Top" HorizontalAlignment="Center">
+
+            <Button x:Name="Mi_Galeria" Content="Galeria" VerticalAlignment="Top" HorizontalAlignment="Center" Width="80" Click="Mi_Galeria_Click" Style="{StaticResource Btn}" />
+            <Button x:Name="Pregunta" Content="?" VerticalAlignment="Top" HorizontalAlignment="Left" Width="20" Height="25"  Click="Pregunta_Click" Style="{StaticResource Btn}"/>
+
+            <MenuItem x:Name="Admin" Header="Administrar" StaysOpenOnClick="True" Background="Black" Foreground="AliceBlue">
+                <uc:administrar x:Name="adminn"/>
+            </MenuItem>
+
+        </Menu>
+
+        <Button x:Name="BotonPelis"  Width="230" Height="160" Margin="400,215,0,0"  Background="{x:Null}" Click="BotonPelis_Click" MouseEnter="BotonPelis_MouseEnter" MouseLeave="BotonPelis_MouseLeave_1" ToolTip="Peliculas" >
+            <Image x:Name="Peliculas" Source="/Resources/CineGif1.gif" Width="250" Height="200"  />
+        </Button>
+
+        <Button x:Name="BotonLibros"  Width="250" Height="160" Margin="0,200,400,0" MouseEnter="BotonLibros_MouseEnter" MouseLeave="BotonLibros_MouseLeave" Background="{x:Null}" Click="BotonLibros_Click" ToolTip="Libros" >
+            <Image x:Name="Libros" Source="/Resources/libros.png" Width="275" Height="150" />
+        </Button>
+
+        <Button x:Name="BotonMusica"  Width="250" Height="150" Margin="400,0,0,140" MouseEnter="BotonMusica_MouseEnter" MouseLeave="BotonMusica_MouseLeave" Background="#FFF7EDED" Click="BotonMusica_Click" ToolTip="Musica" >
+            <Image x:Name="Musica" Source="/Resources/Musica.png" Width="200" Height="150" Stretch="UniformToFill"/>
+        </Button>
+
+        <Button x:Name="BotonPinturas"  Width="250" Height="160" Margin="0,-120,400,30" MouseEnter="MousePintura" MouseLeave="BotonPinturas_MouseLeave" Background="{x:Null}" Click="BotonPinturas_Click" ToolTip="Pinturas" >
+            <Image x:Name="Pinturas" Source="/Resources/PinturaGif.gif" Width="260" Height="150" />
+        </Button>
+
+        <Button x:Name="Cerrar" Content="Cerrar sesion" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,0" Click="Cerrar_Click" Style="{StaticResource Btn}"/>
+        <TextBlock x:Name="us"  Width="100" Height="20" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,35" TextAlignment="Center" Foreground="AliceBlue" />
+
+    </Grid>
+</Page>

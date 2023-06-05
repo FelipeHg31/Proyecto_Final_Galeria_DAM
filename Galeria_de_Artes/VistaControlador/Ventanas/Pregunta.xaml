@@ -1,0 +1,25 @@
+﻿<Page x:Class="Galeria_de_Artes.VistaControlador.Ventanas.Pregunta"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Galeria_de_Artes.VistaControlador.Ventanas"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Pregunta">
+
+    <Grid>
+        <Image  Source="/Resources/pregunta.jpg" Stretch="Fill" />
+
+        <Button x:Name="Como_Bot" Width="200" Height="70" FontSize="20" Foreground="Aqua" VerticalAlignment="Center" Margin="0,0,500,150" Background="{x:Null}" Click="Como_Bot_Click">
+            <TextBlock Text="Como usar la galeria de arte" TextWrapping="Wrap" TextAlignment="Center" Foreground="#FF004DDD" FontWeight="Bold" />
+        </Button>
+        <Button x:Name="Como_MiGaleria" Width="250" Height="70"  VerticalAlignment="Center" Margin="0,0,-500,150" Background="{x:Null}" Click="Como_MiGaleria_Click">
+            <TextBlock Text="Como usar mí galeria" TextWrapping="Wrap" TextAlignment="Center" Foreground="#FF004DDD" FontWeight="Bold" FontSize="25"/>
+        </Button>
+
+        <Button x:Name="Como_arte" Width="250" Height="70"  VerticalAlignment="Center" Margin="0,180,0,0" Background="{x:Null}" Click="Como_arte_Click">
+            <TextBlock Text="Como usar las paginas de arte" TextWrapping="Wrap" TextAlignment="Center" Foreground="#FF004DDD" FontWeight="Bold" FontSize="25"/>
+        </Button>
+    </Grid>
+</Page>

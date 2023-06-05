@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2022.12.30.0" projectFile="C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Documentacion.shfbproj" started="04/06/2023 16:35:35">
+<buildStep step="Initializing">
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
+Locating components in the following folder(s):
+    C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components
+Using framework reflection data for &#39;.NET Core/.NET Standard/.NET 5.0+&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NET&#39;
+Using presentation style &#39;Default2022&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022&#39;
+Loading and initializing plug-ins...
+Website Table of Contents Generator Version 2022.12.30.0
+Copyright &#169; 2006-2022, Eric Woodruff, All Rights Reserved
+-------------------------------
+Clearing any prior web/markdown output...
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Galeria_de_Artes\bin\Debug\net6.0-windows\Galeria_de_Artes.dll
+    Found assembly &#39;C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Galeria_de_Artes\bin\Debug\net6.0-windows\Galeria_de_Artes.dll&#39;
+Source: C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Galeria_de_Artes\bin\Debug\net6.0-windows\Galeria_de_Artes.xml
+
+Copying XML comments files
+    C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Galeria_de_Artes\bin\Debug\net6.0-windows\Galeria_de_Artes.xml -&gt; C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\Galeria_de_Artes.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (es-ES, Espa&#241;ol (Espa&#241;a))...
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-ccd2b3ff-27f3-4a3e-8dd2-796d67f2cb4a.proj]
+Compilaci&#162;n iniciada a las 04/06/2023 16:35:36.
+Proyecto &quot;C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\GenerateRefInfo-ccd2b3ff-27f3-4a3e-8dd2-796d67f2cb4a.proj&quot; en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio &quot;obj\Debug\&quot;.
+GenerateBindingRedirects:
+  No hay redirecciones de enlace sugeridas procedentes de ResolveAssemblyReferences.
+GenerateRefInfo:
+  Microsoft.Build (v17.3.1+2badb37d109910fbd3155cf8743224b7a27494d8)
+  &#184; Microsoft Corporation. All rights reserved.
+  No source code context base path specified.  Source context information is unavailable.
+  Loaded 1 assemblies for reflection and 1 dependency assemblies.
+  Wrote information on 6 namespaces, 27 types, and 499 members
+  Merging duplicate type and member information
+  Merged 0 duplicate type(s) and 0 duplicate member(s)
+Compilaci&#162;n del proyecto terminada &quot;C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\GenerateRefInfo-ccd2b3ff-27f3-4a3e-8dd2-796d67f2cb4a.proj&quot; (destinos predeterminados).
+    Last step completed in 00:00:01,5186
+</buildStep>
+<buildStep step="ApplyDocumentModel">
+Applying document model to reflection output...
+    Last step completed in 00:00:00,6742
+</buildStep>
+<buildStep step="AddApiTopicFilenames">
+Adding topic filenames to API members...
+    Last step completed in 00:00:00,3812
+</buildStep>
+<buildStep step="GenerateApiTopicManifest">
+Generating API topic manifest...
+    Last step completed in 00:00:00,1482
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00,1629
+</buildStep>
+<buildStep step="CopyConceptualContent">
+Copying conceptual content...
+Checking for token files...
+Checking for code snippets files...
+Copying images and creating the media map file...
+Generating conceptual topic files
+    Parsing topic file &#39;C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Content\Welcome.aml&#39;
+    C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Content\Welcome.aml -&gt; C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\ddueXml\75f456e8-c589-41b4-aacc-a6aa4febfcc5.xml
+    Parsing topic file &#39;C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Content\VersionHistory\VersionHistory.aml&#39;
+    C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Content\VersionHistory\VersionHistory.aml -&gt; C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\ddueXml\9b1db296-f511-4a65-bb03-23e37912f320.xml
+    Parsing topic file &#39;C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Content\VersionHistory\v1.0.0.0.aml&#39;
+    C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Content\VersionHistory\v1.0.0.0.aml -&gt; C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\ddueXml\a08451c8-e5d0-4af2-bf04-e73c4dae4885.xml
+    Last step completed in 00:00:00,1012
+</buildStep>
+<buildStep step="CreateConceptualTopicConfigs">
+Creating conceptual topic configuration files...
+    Companion files
+    _ContentMetadata_.xml
+    Merging topic IDs into reference topic manifest file
+    Last step completed in 00:00:00,0209
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\icons\Help.png -&gt; C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\Output\Website\icons\Help.png
+    Last step completed in 00:00:00,0140
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00,0019
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file for API content...
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00,2602
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    Last step completed in 00:00:00,2152
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00,0050
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\BuildAssembler.config
+  Updating reference topic configurations.
+  Updating conceptual topic configurations.
+    Removing unused ExampleComponent.
+    Last step completed in 00:00:00,0060
+</buildStep>
+<buildStep step="BuildTopics">
+Building help topics...
+<plugIn name="Website Table of Contents Generator" behavior="Before" priority="1000">
+Loading TOC info and adding unique IDs to parent nodes
+</plugIn>Loading configuration...
+Processing topics...
+SHFB: Warning BE0066: ShowMissingComponent: [N:Galeria_de_Artes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.App._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:Galeria_de_Artes.Modelo.Apis] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiChicago.Autor] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiChicago.Autor] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiChicago.BusqAut(System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiChicago.BusqAut(System.Int32)] Missing &lt;param name=&quot;id&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.Modelo.Apis.ApiChicago.busqAutor] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.Modelo.Apis.ApiChicago.busqImg] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiChicago.BusqImgs(System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiChicago.BusqImgs(System.Int32)] Missing &lt;param name=&quot;id&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiChicago.BusqImgstitle(System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiChicago.BusqImgstitle(System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiChicago.BusqImgstitle(System.Int32)] Missing &lt;param name=&quot;id&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.Modelo.Apis.ApiChicago.lectorAut] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.Modelo.Apis.ApiChicago.lectorPint] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiChicago.ObtenerAutor] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiChicago.ObtenerAutor] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiChicago.ObtenerBusqAut] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiChicago.ObtenerBusqAut] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiChicago.ObtenerImgs] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiChicago.ObtenerImgs] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiChicago.ObtenerPintura] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiChicago.ObtenerPintura] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiChicago.Pintura] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.Modelo.Apis.ApiChicago.respuesta] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiCine.Genero] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiCine.Genero] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.Modelo.Apis.ApiCine.lectorBusqPal] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.Modelo.Apis.ApiCine.lectorBusqTit] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.Modelo.Apis.ApiCine.lectorGen] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.Modelo.Apis.ApiCine.lectorPeli] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.Modelo.Apis.ApiCine.lectorPerso] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiCine.ObtenerGenero] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiCine.ObtenerGenero] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiCine.ObtenerPalabraClave] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiCine.ObtenerPalabraClave] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiCine.ObtenerPelicula] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiCine.ObtenerPelicula] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiCine.ObtenerPersonal] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiCine.ObtenerPersonal] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiCine.PalabraClave(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiCine.PalabraClave(System.String)] Missing &lt;param name=&quot;pal&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiCine.Pelicula(System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiCine.Pelicula(System.Int32)] Missing &lt;param name=&quot;num&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiCine.Personal(System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiCine.Personal(System.Int32)] Missing &lt;param name=&quot;id&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.Modelo.Apis.ApiCine.respuesta] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiLibros.Autore] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiLibros.Autore] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.Modelo.Apis.ApiLibros.busqAut] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.Modelo.Apis.ApiLibros.busqTit] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiLibros.BusquedaAutor(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiLibros.BusquedaAutor(System.String)] Missing &lt;param name=&quot;autr&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiLibros.BusquedaTit(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiLibros.BusquedaTit(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiLibros.BusquedaTit(System.String)] Missing &lt;param name=&quot;tit&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.Modelo.Apis.ApiLibros.ImagenEntrante] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.Modelo.Apis.ApiLibros.lectorAut] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.Modelo.Apis.ApiLibros.lectorLib] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiLibros.Libro] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiLibros.ObtenerAutor] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiLibros.ObtenerAutor] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiLibros.ObtenerBusqAut] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiLibros.ObtenerBusqAut] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiLibros.ObtenerBusqTit] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiLibros.ObtenerBusqTit] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiLibros.ObtenerLibro] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiLibros.ObtenerLibro] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.Modelo.Apis.ApiLibros.respuesta] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiMusica.Albumes(System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiMusica.Albumes(System.Int32)] Missing &lt;param name=&quot;index&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiMusica.Artistass(System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiMusica.Artistass(System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiMusica.Artistass(System.Int32)] Missing &lt;param name=&quot;index&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.Modelo.Apis.ApiMusica.busqAlb] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.Modelo.Apis.ApiMusica.busqArt] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.Modelo.Apis.ApiMusica.busqTit2] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiMusica.BusquedaAlbum(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiMusica.BusquedaAlbum(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiMusica.BusquedaAlbum(System.String)] Missing &lt;param name=&quot;alb&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiMusica.BusquedaArtista(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiMusica.BusquedaArtista(System.String)] Missing &lt;param name=&quot;art&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiMusica.BusquedaTitulo(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiMusica.BusquedaTitulo(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiMusica.BusquedaTitulo(System.String)] Missing &lt;param name=&quot;tit&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiMusica.BusquedaTituloArtistaAlbum(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiMusica.BusquedaTituloArtistaAlbum(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiMusica.BusquedaTituloArtistaAlbum(System.String)] Missing &lt;param name=&quot;tit&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiMusica.Geneross] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiMusica.Geneross] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.Modelo.Apis.ApiMusica.ImagenEntrante] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.Modelo.Apis.ApiMusica.lectorAlb] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.Modelo.Apis.ApiMusica.lectorArt] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.Modelo.Apis.ApiMusica.lectorGen] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.Modelo.Apis.ApiMusica.lectorTit] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiMusica.ObtenerAlbBusq] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiMusica.ObtenerAlbBusq] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiMusica.ObtenerAlbum] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiMusica.ObtenerAlbum] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiMusica.ObtenerArtBusq] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiMusica.ObtenerArtBusq] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiMusica.ObtenerArtista] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiMusica.ObtenerArtista] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiMusica.ObtenerGenero] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiMusica.ObtenerGenero] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiMusica.ObtenerTitArtAlbBusq] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiMusica.ObtenerTitArtAlbBusq] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiMusica.ObtenerTitBusq] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiMusica.ObtenerTitBusq] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiMusica.ObtenerTitulo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiMusica.ObtenerTitulo] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.Modelo.Apis.ApiMusica.respuesta] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiMusica.Tituloss(System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiMusica.Tituloss(System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Apis.ApiMusica.Tituloss(System.Int32)] Missing &lt;param name=&quot;index&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:Galeria_de_Artes.Modelo.Bases_Datos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.ActualizarObra(System.Int32,System.Int32,System.Int32,System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.ActualizarObra(System.Int32,System.Int32,System.Int32,System.String)] Missing &lt;param name=&quot;id&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.ActualizarObra(System.Int32,System.Int32,System.Int32,System.String)] Missing &lt;param name=&quot;tipo&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.ActualizarObra(System.Int32,System.Int32,System.Int32,System.String)] Missing &lt;param name=&quot;gen&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.ActualizarObra(System.Int32,System.Int32,System.Int32,System.String)] Missing &lt;param name=&quot;api&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.ActualizarOpinion(System.String,System.Int32,System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.ActualizarOpinion(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;IdObra&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.ActualizarOpinion(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;IdUsuario&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.ActualizarOpinion(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;opinion&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.ActualizarOpinion_us(System.String,System.Int32,System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.ActualizarOpinion_us(System.String,System.Int32,System.Int32)] Missing &lt;param name=&quot;IdObra&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.ActualizarOpinion_us(System.String,System.Int32,System.Int32)] Missing &lt;param name=&quot;IdUsuario&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.ActualizarOpinion_us(System.String,System.Int32,System.Int32)] Missing &lt;param name=&quot;likeOdis&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.ActualizarOpinionApp(System.String,System.Int32,System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.ActualizarOpinionApp(System.String,System.Int32,System.Int32)] Missing &lt;param name=&quot;IdObra&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.ActualizarOpinionApp(System.String,System.Int32,System.Int32)] Missing &lt;param name=&quot;ContLikes&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.ActualizarOpinionApp(System.String,System.Int32,System.Int32)] Missing &lt;param name=&quot;contDisl&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.ActualizarUsuario(System.Int32,System.Double,System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.ActualizarUsuario(System.Int32,System.Double,System.String)] Missing &lt;param name=&quot;id&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.ActualizarUsuario(System.Int32,System.Double,System.String)] Missing &lt;param name=&quot;rol&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.ActualizarUsuario(System.Int32,System.Double,System.String)] Missing &lt;param name=&quot;cont&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.BuscarObras(System.String,System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.BuscarObras(System.String,System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.BuscarObras(System.String,System.Int32)] Missing &lt;param name=&quot;idApi&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.BuscarObras(System.String,System.Int32)] Missing &lt;param name=&quot;tipo&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.BuscarOpinion_Us(System.String,System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.BuscarOpinion_Us(System.String,System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.BuscarOpinion_Us(System.String,System.Int32)] Missing &lt;param name=&quot;IdObra&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.BuscarOpinion_Us(System.String,System.Int32)] Missing &lt;param name=&quot;IdUsuario&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.BuscarOpiniones(System.String,System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.BuscarOpiniones(System.String,System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.BuscarOpiniones(System.String,System.Int32)] Missing &lt;param name=&quot;IdObra&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.BuscarOpiniones(System.String,System.Int32)] Missing &lt;param name=&quot;IdUsuario&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.BuscarOpinionesApp(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.BuscarOpinionesApp(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.BuscarOpinionesApp(System.String)] Missing &lt;param name=&quot;IdObra&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.BuscarUsuario(System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.BuscarUsuario(System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.BuscarUsuario(System.Int32)] Missing &lt;param name=&quot;id&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.comando] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.comando] Member ID URL not found for target &#39;T:System.Data.SQLite.SQLiteCommand&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.con] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.con] Member ID URL not found for target &#39;T:System.Data.SQLite.SQLiteConnection&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.EliminarObra(System.Int32,System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.EliminarObra(System.Int32,System.Int32)] Missing &lt;param name=&quot;id&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.EliminarObra(System.Int32,System.Int32)] Missing &lt;param name=&quot;tipo&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.EliminarOpinion(System.Int32,System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.EliminarOpinion(System.Int32,System.String)] Missing &lt;param name=&quot;IdUsuario&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.EliminarOpinion(System.Int32,System.String)] Missing &lt;param name=&quot;IdObra&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.EliminarOpinion_us(System.Int32,System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.EliminarOpinion_us(System.Int32,System.String)] Missing &lt;param name=&quot;IdUsuario&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.EliminarOpinion_us(System.Int32,System.String)] Missing &lt;param name=&quot;IdObra&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.EliminarOpinionApp(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.EliminarOpinionApp(System.String)] Missing &lt;param name=&quot;IdObra&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.EliminarUsuario(System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.EliminarUsuario(System.Int32)] Missing &lt;param name=&quot;id&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.IniciarSesion(System.String,System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.IniciarSesion(System.String,System.String)] Missing &lt;param name=&quot;us&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.IniciarSesion(System.String,System.String)] Missing &lt;param name=&quot;cont&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.lector] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.lector] Member ID URL not found for target &#39;T:System.Data.SQLite.SQLiteDataReader&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.MostrarObras(System.Windows.Controls.ComboBox,System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.MostrarObras(System.Windows.Controls.ComboBox,System.Int32)] Missing &lt;param name=&quot;c&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.MostrarObras(System.Windows.Controls.ComboBox,System.Int32)] Missing &lt;param name=&quot;tipo&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.MostrarOpinion(System.Windows.Controls.ComboBox)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.MostrarOpinion(System.Windows.Controls.ComboBox)] Missing &lt;param name=&quot;c&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.MostrarOpinion_us(System.Windows.Controls.ComboBox)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.MostrarOpinion_us(System.Windows.Controls.ComboBox)] Missing &lt;param name=&quot;c&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.MostrarOpinionApp(System.Windows.Controls.ComboBox)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.MostrarOpinionApp(System.Windows.Controls.ComboBox)] Missing &lt;param name=&quot;c&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.MostrarOpinionPorObras(System.Windows.Controls.ComboBox,System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.MostrarOpinionPorObras(System.Windows.Controls.ComboBox,System.String)] Missing &lt;param name=&quot;c&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.MostrarOpinionPorObras(System.Windows.Controls.ComboBox,System.String)] Missing &lt;param name=&quot;IdObra&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.MostrarUsuarios(System.Windows.Controls.ComboBox)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.MostrarUsuarios(System.Windows.Controls.ComboBox)] Missing &lt;param name=&quot;c&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.NuevaObra(System.String,System.String,System.Int32,System.Int32,System.String)] Missing &lt;param name=&quot;nom&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.NuevaObra(System.String,System.String,System.Int32,System.Int32,System.String)] Missing &lt;param name=&quot;api&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.NuevaObra(System.String,System.String,System.Int32,System.Int32,System.String)] Missing &lt;param name=&quot;tipo&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.NuevaObra(System.String,System.String,System.Int32,System.Int32,System.String)] Missing &lt;param name=&quot;genero&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.NuevaObra(System.String,System.String,System.Int32,System.Int32,System.String)] Missing &lt;param name=&quot;media&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.NuevaOpinion(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;IdObra&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.NuevaOpinion(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;IdUsuario&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.NuevaOpinion(System.String,System.Int32,System.String)] Missing &lt;param name=&quot;opinion&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.NuevaOpinion_us(System.String,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;IdObra&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.NuevaOpinion_us(System.String,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;tipoObra&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.NuevaOpinion_us(System.String,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;IdUsuario&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.NuevaOpinion_us(System.String,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;likeOdis&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.NuevoOpinionApp(System.String,System.Int32,System.Int32)] Missing &lt;param name=&quot;IdObra&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.NuevoOpinionApp(System.String,System.Int32,System.Int32)] Missing &lt;param name=&quot;ContLikes&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.NuevoOpinionApp(System.String,System.Int32,System.Int32)] Missing &lt;param name=&quot;contDisl&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.NuevoUsuario(System.String,System.String,System.Int32)] Missing &lt;param name=&quot;nom&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.NuevoUsuario(System.String,System.String,System.Int32)] Missing &lt;param name=&quot;cont&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.NuevoUsuario(System.String,System.String,System.Int32)] Missing &lt;param name=&quot;rol&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.ObtenerId(System.Int32,System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.ObtenerId(System.Int32,System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.ObtenerId(System.Int32,System.Int32)] Missing &lt;param name=&quot;id&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.ObtenerId(System.Int32,System.Int32)] Missing &lt;param name=&quot;tipo&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.ObtLikes(System.String,System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.ObtLikes(System.String,System.Int32)] Missing &lt;param name=&quot;IdObra&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.ObtLikes(System.String,System.Int32)] Missing &lt;param name=&quot;IdUsuario&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.ObtMedia(System.Int32,System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.ObtMedia(System.Int32,System.Int32)] Missing &lt;param name=&quot;id&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.ObtMedia(System.Int32,System.Int32)] Missing &lt;param name=&quot;tipo&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.ObtObrasLikes(System.Int32,System.Windows.Controls.ComboBox)] Missing &lt;param name=&quot;IdUsuario&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.ObtObrasLikes(System.Int32,System.Windows.Controls.ComboBox)] Missing &lt;param name=&quot;c&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.ObtOpinion(System.String,System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.ObtOpinion(System.String,System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.ObtOpinion(System.String,System.Int32)] Missing &lt;param name=&quot;IdObra&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.ObtOpinion(System.String,System.Int32)] Missing &lt;param name=&quot;IdUsuario&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.rol] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.VerificarTransaccionesActivas(System.Data.SQLite.SQLiteConnection)] Missing &lt;param name=&quot;con&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:Galeria_de_Artes.Modelo.Bases_Datos.CRUD.VerificarTransaccionesActivas(System.Data.SQLite.SQLiteConnection)] Member ID URL not found for target &#39;T:System.Data.SQLite.SQLiteConnection&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [N:Galeria_de_Artes.Modelo.Clases] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Clases.Canciones.#ctor(System.String,System.String,System.String)] Missing &lt;param name=&quot;idCancionApi&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Clases.Canciones.#ctor(System.String,System.String,System.String)] Missing &lt;param name=&quot;cancion&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Clases.Canciones.#ctor(System.String,System.String,System.String)] Missing &lt;param name=&quot;opinion&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Galeria_de_Artes.Modelo.Clases.Canciones.Cancion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Galeria_de_Artes.Modelo.Clases.Canciones.IdCancionApi] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Galeria_de_Artes.Modelo.Clases.Canciones.Opinion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Clases.Canciones.ToString] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Clases.Canciones.ToString] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Clases.Libros.#ctor(System.String,System.String,System.String)] Missing &lt;param name=&quot;idLibroApi&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Clases.Libros.#ctor(System.String,System.String,System.String)] Missing &lt;param name=&quot;libro&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Clases.Libros.#ctor(System.String,System.String,System.String)] Missing &lt;param name=&quot;opinion&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Galeria_de_Artes.Modelo.Clases.Libros.IdLibroApi] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Galeria_de_Artes.Modelo.Clases.Libros.Libro] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Galeria_de_Artes.Modelo.Clases.Libros.Opinion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Clases.Libros.ToString] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Clases.Libros.ToString] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Clases.Metodos.EsperarCargaDatos(System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Clases.Metodos.EsperarCargaDatos(System.Int32)] Missing &lt;param name=&quot;tiempoEspera&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Clases.Metodos.Propiedades_Json(System.Text.Json.JsonDocument)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Clases.Metodos.Propiedades_Json(System.Text.Json.JsonDocument)] Missing &lt;param name=&quot;json&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Clases.obras.#ctor(System.Int32,System.String)] Missing &lt;param name=&quot;tipo&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Clases.obras.#ctor(System.Int32,System.String)] Missing &lt;param name=&quot;id&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Galeria_de_Artes.Modelo.Clases.obras.id] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Galeria_de_Artes.Modelo.Clases.obras.tipo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Clases.Pelicula.#ctor(System.String,System.String,System.String,System.Int32)] Missing &lt;param name=&quot;idPeliculaApi&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Clases.Pelicula.#ctor(System.String,System.String,System.String,System.Int32)] Missing &lt;param name=&quot;pelicula&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Clases.Pelicula.#ctor(System.String,System.String,System.String,System.Int32)] Missing &lt;param name=&quot;opinion&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Clases.Pelicula.#ctor(System.String,System.String,System.String,System.Int32)] Missing &lt;param name=&quot;genero&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Galeria_de_Artes.Modelo.Clases.Pelicula.Genero] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Galeria_de_Artes.Modelo.Clases.Pelicula.IdPeliculaApi] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Galeria_de_Artes.Modelo.Clases.Pelicula.Opinion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Galeria_de_Artes.Modelo.Clases.Pelicula.pelicula] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Clases.Pelicula.ToString] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Clases.Pelicula.ToString] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Clases.Pintur.#ctor(System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;idPinturaApi&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Clases.Pintur.#ctor(System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;pintura&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Clases.Pintur.#ctor(System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;opinion&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Clases.Pintur.#ctor(System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;genero&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Galeria_de_Artes.Modelo.Clases.Pintur.Genero] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Galeria_de_Artes.Modelo.Clases.Pintur.IdPinturaApi] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Galeria_de_Artes.Modelo.Clases.Pintur.Opinion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Galeria_de_Artes.Modelo.Clases.Pintur.Pintura] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Clases.Pintur.ToString] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Clases.Pintur.ToString] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Galeria_de_Artes.Modelo.Clases.UsuarioIngresado.id] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Galeria_de_Artes.Modelo.Clases.UsuarioIngresado.nombre] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Galeria_de_Artes.Modelo.Clases.UsuarioIngresado.tipo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Clases.Usuarios.#ctor(System.Int32,System.String,System.String,System.Int32)] Missing &lt;param name=&quot;id&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Clases.Usuarios.#ctor(System.Int32,System.String,System.String,System.Int32)] Missing &lt;param name=&quot;nombre&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Clases.Usuarios.#ctor(System.Int32,System.String,System.String,System.Int32)] Missing &lt;param name=&quot;contrase&#241;a&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Clases.Usuarios.#ctor(System.Int32,System.String,System.String,System.Int32)] Missing &lt;param name=&quot;rol&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Galeria_de_Artes.Modelo.Clases.Usuarios.contrase&#241;a] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Galeria_de_Artes.Modelo.Clases.Usuarios.id] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Galeria_de_Artes.Modelo.Clases.Usuarios.nombre] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:Galeria_de_Artes.Modelo.Clases.Usuarios.rol] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Clases.Usuarios.ToString] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.Modelo.Clases.Usuarios.ToString] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:Galeria_de_Artes.VistaControlador.User_control] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.Aceptar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.Aceptar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.Aceptar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.Aceptar2] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.Aceptar2_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.Aceptar2_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.Aceptar3] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.Aceptar3_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.Aceptar3_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.Actualizar2] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.Actualizar3] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.Agregar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.Agregar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.Agregar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.Agregar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.Agregar5] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.Btn] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.datos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.Editar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.Editar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.Editar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.Editar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.Eliminar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.Eliminar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.Eliminar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.ListVer] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.Obras] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.Obras_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.Obras_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.Obras_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.Op_Us] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.Op_Us_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.Op_Us_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.Opiniones] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.Opiniones_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.Opiniones_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.rbtnLibros] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.rbtnLibros_Checked(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.rbtnLibros_Checked(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.rbtnLibros_Checked(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.rbtnMusica] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.rbtnMusica_Checked(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.rbtnMusica_Checked(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.rbtnPelis] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.rbtnPelis_Checked(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.rbtnPelis_Checked(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.rbtnPelis_Checked(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.rbtnPint] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.rbtnPint_Checked(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.rbtnPint_Checked(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.rbtnPint_Checked(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.Tipo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.TipoArte] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.txt1_1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.txt1_2] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.txt1_3] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.txt1_4] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.txt1_5] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.txt2_1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.txt2_2] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.txt2_3] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.txt3_1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.txt3_2] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.txtb1_1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.txtb1_2] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.txtb1_3] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.txtb1_4] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.txtb1_5] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.txtb2_1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.txtb2_2] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.txtb2_3] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.txtb3_1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.txtb3_2] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.User] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.User_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.User_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.Ver] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.Ver_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.Ver_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.Ver_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.administrar.Volver] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.Volver_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.administrar.Volver_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.Megustan._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.Megustan.datos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.User_control.Megustan.gusta] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.Megustan.gusta_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.User_control.Megustan.gusta_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:Galeria_de_Artes.VistaControlador.Ventanas] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.InicioSesion._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.InicioSesion.Comprobar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.InicioSesion.Comprobar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.InicioSesion.Comprobar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.InicioSesion.Comprobar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.InicioSesion.Cont] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.InicioSesion.datos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.InicioSesion.id] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.InicioSesion.isLoggedIn] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.InicioSesion.Nuevo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.InicioSesion.Nuevo_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.InicioSesion.Nuevo_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.InicioSesion.Nuevo_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.InicioSesion.Sesiones] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.InicioSesion.Sesiones_Loaded(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.InicioSesion.Sesiones_Loaded(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.InicioSesion.Sesiones_Loaded(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.InicioSesion.tipo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.InicioSesion.usua] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.libros._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.libros.api] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.libros.aut] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.libros.autores] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.libros.autores_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.libros.autores_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.libros.autores_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.libros.autores_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.libros.autores_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.libros.buscar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.libros.buscar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.libros.buscar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.libros.Busq] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.libros.Busq_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.libros.Busq_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.libros.Busq_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.libros.busqAut] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.libros.busqTit] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.libros.datos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.libros.gusta] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.libros.gusta_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.libros.gusta_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.libros.gusta_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.libros.IngresoDatos(System.String,System.String,System.String,System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.libros.IngresoDatos(System.String,System.String,System.String,System.Int32)] Missing &lt;param name=&quot;idApi&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.libros.IngresoDatos(System.String,System.String,System.String,System.Int32)] Missing &lt;param name=&quot;libr&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.libros.IngresoDatos(System.String,System.String,System.String,System.Int32)] Missing &lt;param name=&quot;opi&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.libros.IngresoDatos(System.String,System.String,System.String,System.Int32)] Missing &lt;param name=&quot;idUs&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.libros.libr] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.libros.likeODis] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.libros.No_Gusta] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.libros.No_Gusta_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.libros.No_Gusta_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.libros.No_Gusta_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.libros.opi] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.libros.opi_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.libros.opi_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.libros.opinion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.libros.selec] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.libros.TipoArte] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.libros.titulos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.libros.titulos_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.libros.titulos_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.libros.txtAut] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.libros.txtPal] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.libros.txtTit] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.MainWindow._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.apiCine] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.apiL] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.apiM] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.apiPint] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.busqTitL] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.busqTitM] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.busqTitPel] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.busqTitPin] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.datos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.dir] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.gus] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.gustan] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.Imagen] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.indice] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.Met] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.Musica] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.Nombre] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.Nombre_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.Nombre_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.NombreEnun] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.Pausa] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.Pausa_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.Pausa_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.play] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.play_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.play_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.play_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.Pregunta] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.Pregunta_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.Pregunta_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.Pregunta_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.rbtnLibros] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.rbtnLibros_Checked(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.rbtnLibros_Checked(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.rbtnLibros_Checked(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.rbtnMusica] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.rbtnMusica_Checked(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.rbtnMusica_Checked(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.rbtnPelis] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.rbtnPelis_Checked(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.rbtnPelis_Checked(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.rbtnPelis_Checked(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.rbtnPint] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.rbtnPint_Checked(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.rbtnPint_Checked(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.rbtnPint_Checked(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.RepMusica] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.tipoArte] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.TipoArte] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.tit] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.titulo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Mi_galeria.tope] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Musica._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Musica.Album] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Musica.Album_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Musica.Album_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Musica.Album_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Musica.Album_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Musica.Album_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Musica.albumes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Musica.AlbumEsc] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Musica.api] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Musica.artista] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Musica.artista_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Musica.artista_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Musica.artista_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Musica.artista_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Musica.artista_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Musica.artista_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Musica.artistaEsc] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Musica.artistas] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Musica.Busq] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Musica.Busq_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Musica.Busq_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Musica.busqAlb] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Musica.busqArt] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Musica.busqGen] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Musica.busqTit] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Musica.datos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Musica.geneross] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Musica.gusta] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Musica.gusta_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Musica.gusta_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Musica.gusta_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Musica.IngresoDatos(System.String,System.String,System.String,System.Int32,System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Musica.IngresoDatos(System.String,System.String,System.String,System.Int32,System.String)] Missing &lt;param name=&quot;idApi&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Musica.IngresoDatos(System.String,System.String,System.String,System.Int32,System.String)] Missing &lt;param name=&quot;Music&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Musica.IngresoDatos(System.String,System.String,System.String,System.Int32,System.String)] Missing &lt;param name=&quot;opi&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Musica.IngresoDatos(System.String,System.String,System.String,System.Int32,System.String)] Missing &lt;param name=&quot;idUs&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Musica.IngresoDatos(System.String,System.String,System.String,System.Int32,System.String)] Missing &lt;param name=&quot;media&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Musica.likeODis] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Musica.Music] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Musica.No_Gusta] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Musica.No_Gusta_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Musica.No_Gusta_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Musica.No_Gusta_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Musica.opinion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Musica.Pausa] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Musica.Pausa_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Musica.Pausa_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Musica.Pausa_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Musica.sel] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Musica.Selec] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Musica.Selec_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Musica.Selec_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Musica.selecCan] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Musica.selecCan_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Musica.selecCan_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Musica.TipoArte] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Musica.titulos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Musica.titulos_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Musica.titulos_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Musica.titulos_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Musica.titulos_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Musica.titulos_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Musica.titulosEsc] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Musica.tituloss] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.NuevoUsuario._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.NuevoUsuario.Comprobar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.NuevoUsuario.Comprobar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.NuevoUsuario.Comprobar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.NuevoUsuario.Comprobar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.NuevoUsuario.Cont] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.NuevoUsuario.datos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.NuevoUsuario.Nuevo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.NuevoUsuario.usua] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.Actores] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.api] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.Busq] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.Busq_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.Busq_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.Busqueda] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.Busqueda_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.Busqueda_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.datos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.Director] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.gen] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.Genero] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.Genero_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.Genero_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.gusta] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.gusta_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.gusta_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.gusta_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.IngresoDatos(System.String,System.String,System.Int32,System.String,System.Int32,System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.IngresoDatos(System.String,System.String,System.Int32,System.String,System.Int32,System.String)] Missing &lt;param name=&quot;idPeliApi&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.IngresoDatos(System.String,System.String,System.Int32,System.String,System.Int32,System.String)] Missing &lt;param name=&quot;Pelis&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.IngresoDatos(System.String,System.String,System.Int32,System.String,System.Int32,System.String)] Missing &lt;param name=&quot;genero&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.IngresoDatos(System.String,System.String,System.Int32,System.String,System.Int32,System.String)] Missing &lt;param name=&quot;opi&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.IngresoDatos(System.String,System.String,System.Int32,System.String,System.Int32,System.String)] Missing &lt;param name=&quot;idUs&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.IngresoDatos(System.String,System.String,System.Int32,System.String,System.Int32,System.String)] Missing &lt;param name=&quot;media&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.init] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.likeODis] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.No_Gusta] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.No_Gusta_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.No_Gusta_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.No_Gusta_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.opi] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.opi_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.opi_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.opinion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.pal_calve] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.pal_clv] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.peli] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.Peli] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.Peli_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.Peli_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.Peli_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.Peli_MouseLeave(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.Peli_MouseLeave(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.Peli_MouseLeave(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.personal] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.selec] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.TipoArte] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.titulos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.titulos_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.titulos_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.titulos_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.titulos_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Peliculas.titulos_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.api] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.aut] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.Autor] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.Autor_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.Autor_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.Busq] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.Busq_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.Busq_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.busqaut] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.datos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.Director_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.Director_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.Director_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.gusta] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.gusta_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.gusta_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.gusta_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.imag] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.IngresoDatos(System.String,System.String,System.String,System.Int32,System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.IngresoDatos(System.String,System.String,System.String,System.Int32,System.String)] Missing &lt;param name=&quot;idApi&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.IngresoDatos(System.String,System.String,System.String,System.Int32,System.String)] Missing &lt;param name=&quot;Pin&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.IngresoDatos(System.String,System.String,System.String,System.Int32,System.String)] Missing &lt;param name=&quot;opi&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.IngresoDatos(System.String,System.String,System.String,System.Int32,System.String)] Missing &lt;param name=&quot;idUs&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.IngresoDatos(System.String,System.String,System.String,System.Int32,System.String)] Missing &lt;param name=&quot;media&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.likeODis] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.met] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.No_Gusta] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.No_Gusta_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.No_Gusta_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.No_Gusta_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.opi] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.opi_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.opi_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.opinion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.pint] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.Pintura] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.Pintura_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.Pintura_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.Pintura_MouseLeave(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.Pintura_MouseLeave(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.Pintura_MouseLeave(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.selec] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.selecc] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.TipoArte] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.titulos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.titulos_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.titulos_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.titulos_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.titulos_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pinturas.titulos_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.PregGalerias.#ctor(System.Int32)] Missing &lt;param name=&quot;desc&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.PregGalerias._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.PregGalerias.btn] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.PregGalerias.Libros] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.PregGalerias.Libros_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.PregGalerias.Libros_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.PregGalerias.Libros_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.PregGalerias.Musica] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.PregGalerias.Musica_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.PregGalerias.Musica_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.PregGalerias.Peliculas] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.PregGalerias.Peliculas_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.PregGalerias.Peliculas_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.PregGalerias.Peliculas_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.PregGalerias.Pinturas] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.PregGalerias.Pinturas_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.PregGalerias.Pinturas_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.PregGalerias.Pinturas_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.PregGalerias.preg] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.PregGalerias.Texto_Ayuda] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.PregGalerias.textos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.PregGalerias.Titulo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.PregGalerias.volver] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.PregGalerias.volver_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.PregGalerias.volver_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.PregGalerias.volver_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Pregunta._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Pregunta.Como_arte] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pregunta.Como_arte_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pregunta.Como_arte_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pregunta.Como_arte_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Pregunta.Como_Bot] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pregunta.Como_Bot_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pregunta.Como_Bot_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pregunta.Como_Bot_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Pregunta.Como_MiGaleria] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pregunta.Como_MiGaleria_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pregunta.Como_MiGaleria_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Pregunta.Como_MiGaleria_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Pregunta.preg] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Principal._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Principal.Admin] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Principal.adminn] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Principal.BotonLibros] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.BotonLibros_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.BotonLibros_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.BotonLibros_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.BotonLibros_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.BotonLibros_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.BotonLibros_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.BotonLibros_MouseLeave(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.BotonLibros_MouseLeave(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.BotonLibros_MouseLeave(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Principal.BotonMusica] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.BotonMusica_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.BotonMusica_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.BotonMusica_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.BotonMusica_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.BotonMusica_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.BotonMusica_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.BotonMusica_MouseLeave(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.BotonMusica_MouseLeave(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.BotonMusica_MouseLeave(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Principal.BotonPelis] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.BotonPelis_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.BotonPelis_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.BotonPelis_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.BotonPelis_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.BotonPelis_MouseLeave_1(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.BotonPelis_MouseLeave_1(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.BotonPelis_MouseLeave_1(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Principal.BotonPinturas] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.BotonPinturas_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.BotonPinturas_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.BotonPinturas_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.BotonPinturas_MouseLeave(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.BotonPinturas_MouseLeave(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.BotonPinturas_MouseLeave(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Principal.Cerrar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.Cerrar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.Cerrar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.Cerrar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Principal.init] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Principal.Libros] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Principal.menus] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Principal.Mi_Galeria] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.Mi_Galeria_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.Mi_Galeria_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.Mi_Galeria_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.MousePintura(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.MousePintura(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.MousePintura(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Principal.Musica] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Principal.Peliculas] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Principal.Pinturas] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Principal.Pregunta] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.Pregunta_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.Pregunta_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.Pregunta_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Principal.Prins] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.Prins_Loaded(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.Prins_Loaded(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:Galeria_de_Artes.VistaControlador.Ventanas.Principal.Prins_Loaded(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:Galeria_de_Artes.VistaControlador.Ventanas.Principal.us] Missing &lt;summary&gt; documentation
+Processed 615 topic(s)
+781 warning(s)
+CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
+ResolveArtLinksComponent: Copying media files...
+ResolveReferenceLinksComponent: 12 entries added to the member ID URL cache.  New cache size: 739 entries
+CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 8 of 15.
+CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 5 of 30.
+<plugIn name="Website Table of Contents Generator" behavior="After" priority="1000">
+Generating TOC fragment files
+</plugIn>    Last step completed in 00:00:16,4313
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.css -&gt; C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\Output\Website\css\bulma.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.css.map -&gt; C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\Output\Website\css\bulma.css.map
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.min.css -&gt; C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\Output\Website\css\bulma.min.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\font-awesome.css -&gt; C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\Output\Website\css\font-awesome.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\font-awesome.min.css -&gt; C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\Output\Website\css\font-awesome.min.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\ja-JP.css -&gt; C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\Output\Website\css\ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\ko-KR.css -&gt; C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\Output\Website\css\ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\presentationStyle.css -&gt; C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\Output\Website\css\presentationStyle.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\vs.min.css -&gt; C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\Output\Website\css\vs.min.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\zh-CN.css -&gt; C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\Output\Website\css\zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\zh-TW.css -&gt; C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\Output\Website\css\zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\icons\favicon.ico -&gt; C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\Output\Website\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\clipboard.min.js -&gt; C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\Output\Website\scripts\clipboard.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\highlight.min.js -&gt; C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\Output\Website\scripts\highlight.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\jquery-3.5.1.min.js -&gt; C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\Output\Website\scripts\jquery-3.5.1.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\presentationStyle.js -&gt; C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\Output\Website\scripts\presentationStyle.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-brands-400.ttf -&gt; C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\Output\Website\webfonts\fa-brands-400.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-brands-400.woff2 -&gt; C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\Output\Website\webfonts\fa-brands-400.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-regular-400.ttf -&gt; C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\Output\Website\webfonts\fa-regular-400.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-regular-400.woff2 -&gt; C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\Output\Website\webfonts\fa-regular-400.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-solid-900.ttf -&gt; C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\Output\Website\webfonts\fa-solid-900.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-solid-900.woff2 -&gt; C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\Output\Website\webfonts\fa-solid-900.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-v4compatibility.ttf -&gt; C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\Output\Website\webfonts\fa-v4compatibility.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-v4compatibility.woff2 -&gt; C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\Output\Website\webfonts\fa-v4compatibility.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\GeneralError.html -&gt; C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\Output\Website\GeneralError.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\index.html -&gt; C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\Output\Website\index.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\PageNotFound.html -&gt; C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\Output\Website\PageNotFound.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\search.html -&gt; C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\Output\Website\search.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.aspx -&gt; C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\Output\Website\SearchHelp.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.inc.php -&gt; C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\Output\Website\SearchHelp.inc.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.php -&gt; C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\Output\Website\SearchHelp.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\Web.Config -&gt; C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\Output\Website\Web.Config
+    Last step completed in 00:00:00,2240
+</buildStep>
+<buildStep step="GenerateFullTextIndex">
+Generating full-text index for the website...
+
+    Last step completed in 00:00:00,8103
+</buildStep>
+<buildStep step="CopyingWebsiteFiles">
+Copying website files to output folder...
+
+Copied 500 files
+Copied 761 files for the website content
+    Last step completed in 00:00:00,8108
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Not all build output was removed from &#39;C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Documentacion\Help\Working\&#39;: El directorio no est&#225; vac&#237;o.
+
+    Last step completed in 00:00:00,1397
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 04/06/2023 16:35:58.  Total time: 00:00:22,6510
+
+</buildStep>
+</shfbBuild>

@@ -1,0 +1,35 @@
+﻿<Page x:Class="Galeria_de_Artes.VistaControlador.Ventanas.libros"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Galeria_de_Artes.VistaControlador.Ventanas"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="libros">
+
+    <Grid>
+        <Image Source="/Resources/Biblioteca.jpg" Stretch="UniformToFill"/>
+
+        <TextBlock Text="Titulo:" FontSize="35" Margin="-300,-200,250,150" Style="{StaticResource txt}"/>
+        <TextBlock Text="Autor:" FontSize="35"  Margin="-300,-100,250,150" Style="{StaticResource txt}"/>
+        <TextBlock Text="Palabras claves"  Width="240" FontSize="35"  Margin="-100,0,200,150" Style="{StaticResource txt}"/>
+        <TextBlock Text="Opinion" Margin="00,0,0,60" Style="{StaticResource txt}"/>
+
+        <ComboBox x:Name="titulos" Width="250" Height="35" Margin="-200,-200,0,150" MouseEnter="titulos_MouseEnter" />
+        <ComboBox x:Name="autores" Width="250" Height="35" Margin="-200,-100,0,150" MouseEnter="autores_MouseEnter" SelectionChanged="autores_SelectionChanged" />
+        <TextBox x:Name="txtTit" Width="250" Height="35" Margin="300,-200,-50,150" />
+        <TextBox x:Name="txtPal" Width="250" Height="35" Margin="250,0,0,150" />
+        <TextBox x:Name="txtAut" Width="250" Height="35" Margin="300,-100,-50,150" />
+
+
+        <TextBox x:Name="opinion" Width="500" Height="80" Margin="0,0,0,-80" TextWrapping="WrapWithOverflow" />
+
+        <Button x:Name="buscar" Content="Buscar" Width="140" Height="40" Margin="0,250,0,0" FontSize="25" Click="buscar_Click" Style="{StaticResource Btn}"/>
+        <Button x:Name="gusta" Content="Me gusta" Width="140" Height="40" Margin="-300,200,250,-150" FontSize="25" Click="gusta_Click" Style="{StaticResource Btn}"/>
+        <Button x:Name="No_Gusta" Content="No me gusta" Width="150" Height="40" Margin="300,200,-250,-150" FontSize="25" Click="No_Gusta_Click" Style="{StaticResource Btn}"/>
+        <Button x:Name="Busq" Content="Nueva Busqueda" Width="190" Height="40" Margin="200,200,5,-150"  FontSize="25" Click="Busq_Click" Style="{StaticResource Btn}"/>
+        <Button x:Name="opi" Content="Guardar" Width="190" Height="40" Margin="-200,200,5,-150"  FontSize="25" Click="opi_Click" Style="{StaticResource Btn}"/>
+
+    </Grid>
+</Page>

@@ -1,0 +1,40 @@
+﻿<Page x:Class="Galeria_de_Artes.VistaControlador.Ventanas.Musica"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Galeria_de_Artes.VistaControlador.Ventanas"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Musica">
+
+    <Grid>
+        <Image Source="/Resources/concierto2.jpg" Stretch="UniformToFill"/>
+
+        <TextBlock Text="Titulo:" Margin="-200,-200,150,150"  Style="{StaticResource txt}"/>
+        <TextBlock Text="Artista:" Margin="-200,-100,150,150"  Style="{StaticResource txt}"/>
+        <TextBlock Text="Album:" Margin="-200,-100,150,50"  Style="{StaticResource txt}"/>
+        <TextBlock Text="Cancion:" Margin="-200,0,150,50"  Style="{StaticResource txt}"/>
+
+
+        <ComboBox x:Name="titulos" Width="150" Height="25" Margin="-100,-200,0,150" MouseEnter="titulos_MouseEnter" SelectionChanged="titulos_SelectionChanged" />
+        <TextBox x:Name="titulosEsc" Width="150" Height="25" Margin="250,-200,0,150" />
+        <ComboBox x:Name="artista" Width="150" Height="25" Margin="-100,-100,0,150" MouseEnter="artista_MouseEnter" SelectionChanged="artista_SelectionChanged" />
+        <TextBox x:Name="artistaEsc" Width="150" Height="25" Margin="250,-100,0,150" />
+        <ComboBox x:Name="Album" Width="150" Height="25" Margin="-100,-100,0,50" MouseEnter="Album_MouseEnter" SelectionChanged="Album_SelectionChanged" />
+        <TextBox x:Name="AlbumEsc" Width="150" Height="25" Margin="250,-100,0,50" />
+        <MediaElement x:Name="Music" Width="150" Height="25" Margin="-200,0,150,50" />
+        <Button x:Name="Pausa" Width="50" Content="||" Margin="0,0,0,50" Click="Pausa_Click" Style="{StaticResource Btn}"/>
+
+        <TextBlock Text="Opinion" Margin="0,90,250,0" Style="{StaticResource txt}"/>
+        <TextBox x:Name="opinion" Width="200" Height="100" Margin="200,0,0,-100" TextWrapping="WrapWithOverflow" />
+
+        <Button x:Name="selecCan" Content="Guardar" Width="200" Height="30" Margin="-200,200,5,-150" FontSize="20" Click="selecCan_Click" Style="{StaticResource Btn}"/>
+        <Button x:Name="Busq" Content="Seleccionar busqueda" Width="200" Height="30" Margin="200,200,5,-150"  FontSize="20" Click="Busq_Click" Style="{StaticResource Btn}"/>
+        <Button x:Name="Selec" Content="Nueva Busqueda" Width="200" Height="30" Margin="0,0,250,-250"  FontSize="20" Click="Selec_Click" Style="{StaticResource Btn}"/>
+
+        <Button x:Name="gusta" Content="Me gusta" Width="140" Height="30" Margin="-300,200,250,-150" FontSize="20" Click="gusta_Click" Style="{StaticResource Btn}"/>
+        <Button x:Name="No_Gusta" Content="No me gusta" Width="150" Height="30" Margin="300,200,-250,-150" FontSize="20" Click="No_Gusta_Click" Style="{StaticResource Btn}"/>
+
+    </Grid>
+</Page>

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="VistaControlador\User_control\administrar.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="VistaControlador\User_control\Megustan.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="VistaControlador\Ventanas\InicioSesion.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="VistaControlador\Ventanas\libros.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="VistaControlador\Ventanas\Mi_galeria.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="VistaControlador\Ventanas\Musica.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="VistaControlador\Ventanas\NuevoUsuario.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="VistaControlador\Ventanas\Peliculas.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="VistaControlador\Ventanas\Pinturas.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="VistaControlador\Ventanas\PregGalerias.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="VistaControlador\Ventanas\Pregunta.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="VistaControlador\Ventanas\Principal.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Resource1.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="VistaControlador\User_control\administrar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="VistaControlador\User_control\Megustan.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="VistaControlador\Ventanas\InicioSesion.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="VistaControlador\Ventanas\libros.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="VistaControlador\Ventanas\MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="VistaControlador\Ventanas\Mi_galeria.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="VistaControlador\Ventanas\Musica.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="VistaControlador\Ventanas\NuevoUsuario.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="VistaControlador\Ventanas\Peliculas.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="VistaControlador\Ventanas\Pinturas.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="VistaControlador\Ventanas\PregGalerias.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="VistaControlador\Ventanas\Pregunta.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="VistaControlador\Ventanas\Principal.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

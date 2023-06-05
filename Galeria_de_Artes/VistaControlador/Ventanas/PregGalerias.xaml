@@ -1,0 +1,30 @@
+﻿<Page x:Class="Galeria_de_Artes.VistaControlador.Ventanas.PregGalerias"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Galeria_de_Artes.VistaControlador.Ventanas"
+      mc:Ignorable="d" 
+      d:DesignHeight="400" d:DesignWidth="600"
+      Title="PregGalerias">
+
+    <Grid>
+        <Image Source="/Resources/m_d.jpg" />
+
+        <StackPanel x:Name="btn" Height="250" Width="300" >
+
+            <Button x:Name="Musica" Content="Musica" Height="40" Width="70" Margin="0,0,0,20" Click="Musica_Click"/>
+            <Button x:Name="Pinturas" Content="Pinturas" Height="40" Width="70" Margin="0,0,0,20" Click="Pinturas_Click"/>
+            <Button x:Name="Peliculas" Content="Pinturas" Height="40" Width="70" Margin="0,0,0,20" Click="Peliculas_Click"/>
+            <Button x:Name="Libros" Content="Pinturas" Height="40" Width="70" Margin="0,0,0,20" Click="Libros_Click"/>
+            
+        </StackPanel>
+
+        <StackPanel x:Name="textos" Height="400" Width="600" >
+            <TextBlock x:Name="Titulo" Height="40" Width="200" TextAlignment="Center" Margin="0,0,0,20" Foreground="AliceBlue" FontSize="20"/>
+            <TextBlock x:Name="Texto_Ayuda" Height="300" Width="500" TextAlignment="Justify" TextWrapping="WrapWithOverflow" Margin="0,0,0,0" Foreground="AliceBlue" FontSize="20"/>
+            <Button x:Name="volver" Content="Volver" Height="40" Width="70" HorizontalAlignment="Center" VerticalAlignment="Bottom" Visibility="Collapsed" Click="volver_Click" />
+        </StackPanel>
+    
+    </Grid>
+</Page>

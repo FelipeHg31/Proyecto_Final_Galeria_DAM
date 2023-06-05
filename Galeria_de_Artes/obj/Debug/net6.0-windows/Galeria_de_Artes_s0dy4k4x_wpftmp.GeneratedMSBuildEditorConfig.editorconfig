@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net6.0-windows
+build_property.TargetPlatformMinVersion = 7.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Galeria_de_Artes_s0dy4k4x_wpftmp
+build_property.ProjectDir = C:\Users\jfeli\OneDrive\Escritorio\DAM 2\Desarrollo de interfaces\ejerDI22\Tema_3\Galeria_de_Artes\Galeria_de_Artes\
