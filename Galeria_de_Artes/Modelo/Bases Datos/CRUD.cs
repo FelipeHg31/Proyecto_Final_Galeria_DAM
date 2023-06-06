@@ -34,7 +34,7 @@ namespace Galeria_de_Artes.Modelo.Bases_Datos
             string strAppPath = Path.GetDirectoryName(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName);
             string strFilePath = Path.Combine(strAppPath, "Resources");
             string strFullFilename = Path.Combine(strFilePath, "Galeria.db");
-            con = new SQLiteConnection("Data Source = C:\\Users\\jfeli\\OneDrive\\Escritorio\\DAM 2\\Desarrollo de interfaces\\ejerDI22\\Tema_3\\Galeria_de_Artes\\Galeria_de_Artes\\Resources\\Galeria.db ; Version = 3;New = False; Mode=ReadWriteCreate;");
+            con = new SQLiteConnection("Data Source = "+strFullFilename+" ; Version = 3;New = False; Mode=ReadWriteCreate;");
 
             con.Open();
 
@@ -98,7 +98,7 @@ namespace Galeria_de_Artes.Modelo.Bases_Datos
             string strFilePath = Path.Combine(strAppPath, "Resources");
             string strFullFilename = Path.Combine(strFilePath, "Galeria.db");
 
-            using (con = new SQLiteConnection("Data Source = C:\\Users\\jfeli\\OneDrive\\Escritorio\\DAM 2\\Desarrollo de interfaces\\ejerDI22\\Tema_3\\Galeria_de_Artes\\Galeria_de_Artes\\Resources\\Galeria.db ; Version = 3;New = False; Mode=ReadWriteCreate;"))
+            using (con = new SQLiteConnection("Data Source = "+strFullFilename+" ; Version = 3;New = False; Mode=ReadWriteCreate;"))
             {
 
                 if (con.State == System.Data.ConnectionState.Open)
@@ -139,7 +139,7 @@ namespace Galeria_de_Artes.Modelo.Bases_Datos
             string strAppPath = Path.GetDirectoryName(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName);
             string strFilePath = Path.Combine(strAppPath, "Resources");
             string strFullFilename = Path.Combine(strFilePath, "Galeria.db");
-            con = new SQLiteConnection("Data Source = C:\\Users\\jfeli\\OneDrive\\Escritorio\\DAM 2\\Desarrollo de interfaces\\ejerDI22\\Tema_3\\Galeria_de_Artes\\Galeria_de_Artes\\Resources\\Galeria.db ; Version = 3;New = False; Mode=ReadWriteCreate;");
+            con = new SQLiteConnection("Data Source = "+strFullFilename+" ; Version = 3;New = False; Mode=ReadWriteCreate;");
 
             if (con.State == System.Data.ConnectionState.Open)
             {
@@ -167,7 +167,7 @@ namespace Galeria_de_Artes.Modelo.Bases_Datos
                 string strAppPath = Path.GetDirectoryName(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName);
                 string strFilePath = Path.Combine(strAppPath, "Resources");
                 string strFullFilename = Path.Combine(strFilePath, "Galeria.db");
-                con = new SQLiteConnection("Data Source = C:\\Users\\jfeli\\OneDrive\\Escritorio\\DAM 2\\Desarrollo de interfaces\\ejerDI22\\Tema_3\\Galeria_de_Artes\\Galeria_de_Artes\\Resources\\Galeria.db ; Version = 3;New = False; Mode=ReadWriteCreate;");
+                con = new SQLiteConnection("Data Source = "+strFullFilename+" ; Version = 3;New = False; Mode=ReadWriteCreate;");
 
                 if (con.State == System.Data.ConnectionState.Open)
                 {
@@ -193,7 +193,7 @@ namespace Galeria_de_Artes.Modelo.Bases_Datos
                 string strAppPath = Path.GetDirectoryName(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName);
                 string strFilePath = Path.Combine(strAppPath, "Resources");
                 string strFullFilename = Path.Combine(strFilePath, "Galeria.db");
-                con = new SQLiteConnection("Data Source = C:\\Users\\jfeli\\OneDrive\\Escritorio\\DAM 2\\Desarrollo de interfaces\\ejerDI22\\Tema_3\\Galeria_de_Artes\\Galeria_de_Artes\\Resources\\Galeria.db ; Version = 3;New = False; Mode=ReadWriteCreate;");
+                con = new SQLiteConnection("Data Source = "+strFullFilename+"; Version = 3;New = False; Mode=ReadWriteCreate;");
 
                 if (con.State == System.Data.ConnectionState.Open)
                 {
@@ -218,7 +218,7 @@ namespace Galeria_de_Artes.Modelo.Bases_Datos
                 string strAppPath = Path.GetDirectoryName(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName);
                 string strFilePath = Path.Combine(strAppPath, "Resources");
                 string strFullFilename = Path.Combine(strFilePath, "Galeria.db");
-                con = new SQLiteConnection("Data Source = C:\\Users\\jfeli\\OneDrive\\Escritorio\\DAM 2\\Desarrollo de interfaces\\ejerDI22\\Tema_3\\Galeria_de_Artes\\Galeria_de_Artes\\Resources\\Galeria.db ; Version = 3;New = False; Mode=ReadWriteCreate;");
+                con = new SQLiteConnection("Data Source = "+strFullFilename+" ; Version = 3;New = False; Mode=ReadWriteCreate;");
 
                 if (con.State == System.Data.ConnectionState.Open)
                 {
@@ -252,7 +252,7 @@ namespace Galeria_de_Artes.Modelo.Bases_Datos
             string strAppPath = Path.GetDirectoryName(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName);
             string strFilePath = Path.Combine(strAppPath, "Resources");
             string strFullFilename = Path.Combine(strFilePath, "Galeria.db");
-            con = new SQLiteConnection("Data Source = C:\\Users\\jfeli\\OneDrive\\Escritorio\\DAM 2\\Desarrollo de interfaces\\ejerDI22\\Tema_3\\Galeria_de_Artes\\Galeria_de_Artes\\Resources\\Galeria.db ; Version = 3;New = False; Mode=ReadWriteCreate;");
+            con = new SQLiteConnection("Data Source = "+strFullFilename+" ; Version = 3;New = False; Mode=ReadWriteCreate;");
 
             if (con.State == System.Data.ConnectionState.Open)
             {
@@ -293,7 +293,7 @@ namespace Galeria_de_Artes.Modelo.Bases_Datos
             string strAppPath = Path.GetDirectoryName(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName);
             string strFilePath = Path.Combine(strAppPath, "Resources");
             string strFullFilename = Path.Combine(strFilePath, "Galeria.db");
-            con = new SQLiteConnection("Data Source = C:\\Users\\jfeli\\OneDrive\\Escritorio\\DAM 2\\Desarrollo de interfaces\\ejerDI22\\Tema_3\\Galeria_de_Artes\\Galeria_de_Artes\\Resources\\Galeria.db ; Version = 3;New = False; Mode=ReadWriteCreate;");
+            con = new SQLiteConnection("Data Source = "+strFullFilename+" ; Version = 3;New = False; Mode=ReadWriteCreate;");
 
             if (con.State == System.Data.ConnectionState.Open)
             {
@@ -338,7 +338,7 @@ namespace Galeria_de_Artes.Modelo.Bases_Datos
                 string strAppPath = Path.GetDirectoryName(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName);
                 string strFilePath = Path.Combine(strAppPath, "Resources");
                 string strFullFilename = Path.Combine(strFilePath, "Galeria.db");
-                con = new SQLiteConnection("Data Source = C:\\Users\\jfeli\\OneDrive\\Escritorio\\DAM 2\\Desarrollo de interfaces\\ejerDI22\\Tema_3\\Galeria_de_Artes\\Galeria_de_Artes\\Resources\\Galeria.db ; Version = 3;New = False; Mode=ReadWriteCreate;");
+                con = new SQLiteConnection("Data Source = "+strFullFilename+" ; Version = 3;New = False; Mode=ReadWriteCreate;");
 
                 switch (tipo)
                 {
@@ -407,7 +407,7 @@ namespace Galeria_de_Artes.Modelo.Bases_Datos
                 string strAppPath = Path.GetDirectoryName(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName);
                 string strFilePath = Path.Combine(strAppPath, "Resources");
                 string strFullFilename = Path.Combine(strFilePath, "Galeria.db");
-                con = new SQLiteConnection("Data Source = C:\\Users\\jfeli\\OneDrive\\Escritorio\\DAM 2\\Desarrollo de interfaces\\ejerDI22\\Tema_3\\Galeria_de_Artes\\Galeria_de_Artes\\Resources\\Galeria.db ; Version = 3;New = False; Mode=ReadWriteCreate;");
+                con = new SQLiteConnection("Data Source = "+strFullFilename+" ; Version = 3;New = False; Mode=ReadWriteCreate;");
 
                 if (con.State == System.Data.ConnectionState.Open)
                 {
@@ -474,7 +474,7 @@ namespace Galeria_de_Artes.Modelo.Bases_Datos
                 string strAppPath = Path.GetDirectoryName(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName);
                 string strFilePath = Path.Combine(strAppPath, "Resources");
                 string strFullFilename = Path.Combine(strFilePath, "Galeria.db");
-                con = new SQLiteConnection("Data Source = C:\\Users\\jfeli\\OneDrive\\Escritorio\\DAM 2\\Desarrollo de interfaces\\ejerDI22\\Tema_3\\Galeria_de_Artes\\Galeria_de_Artes\\Resources\\Galeria.db ; Version = 3;New = False; Mode=ReadWriteCreate;");
+                con = new SQLiteConnection("Data Source = "+strFullFilename+" ; Version = 3;New = False; Mode=ReadWriteCreate;");
 
 
 
@@ -561,7 +561,7 @@ namespace Galeria_de_Artes.Modelo.Bases_Datos
             string strAppPath = Path.GetDirectoryName(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName);
             string strFilePath = Path.Combine(strAppPath, "Resources");
             string strFullFilename = Path.Combine(strFilePath, "Galeria.db");
-            con = new SQLiteConnection("Data Source = C:\\Users\\jfeli\\OneDrive\\Escritorio\\DAM 2\\Desarrollo de interfaces\\ejerDI22\\Tema_3\\Galeria_de_Artes\\Galeria_de_Artes\\Resources\\Galeria.db ; Version = 3;New = False; Mode=ReadWriteCreate;");
+            con = new SQLiteConnection("Data Source = "+strFullFilename+" ; Version = 3;New = False; Mode=ReadWriteCreate;");
 
             if (con.State == System.Data.ConnectionState.Open)
             {
@@ -690,7 +690,7 @@ namespace Galeria_de_Artes.Modelo.Bases_Datos
             string strAppPath = Path.GetDirectoryName(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName);
             string strFilePath = Path.Combine(strAppPath, "Resources");
             string strFullFilename = Path.Combine(strFilePath, "Galeria.db");
-            con = new SQLiteConnection("Data Source = C:\\Users\\jfeli\\OneDrive\\Escritorio\\DAM 2\\Desarrollo de interfaces\\ejerDI22\\Tema_3\\Galeria_de_Artes\\Galeria_de_Artes\\Resources\\Galeria.db ; Version = 3;New = False; Mode=ReadWriteCreate;");
+            con = new SQLiteConnection("Data Source = "+strFullFilename+" ; Version = 3;New = False; Mode=ReadWriteCreate;");
 
             if (con.State == System.Data.ConnectionState.Open)
             {
@@ -794,7 +794,7 @@ namespace Galeria_de_Artes.Modelo.Bases_Datos
             string strAppPath = Path.GetDirectoryName(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName);
             string strFilePath = Path.Combine(strAppPath, "Resources");
             string strFullFilename = Path.Combine(strFilePath, "Galeria.db");
-            con = new SQLiteConnection("Data Source = C:\\Users\\jfeli\\OneDrive\\Escritorio\\DAM 2\\Desarrollo de interfaces\\ejerDI22\\Tema_3\\Galeria_de_Artes\\Galeria_de_Artes\\Resources\\Galeria.db ; Version = 3;New = False; Mode=ReadWriteCreate;");
+            con = new SQLiteConnection("Data Source = "+strFullFilename+" ; Version = 3;New = False; Mode=ReadWriteCreate;");
 
             if (con.State == System.Data.ConnectionState.Open)
             {
@@ -917,7 +917,7 @@ namespace Galeria_de_Artes.Modelo.Bases_Datos
                 string strAppPath = Path.GetDirectoryName(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName);
                 string strFilePath = Path.Combine(strAppPath, "Resources");
                 string strFullFilename = Path.Combine(strFilePath, "Galeria.db");
-                con = new SQLiteConnection("Data Source = C:\\Users\\jfeli\\OneDrive\\Escritorio\\DAM 2\\Desarrollo de interfaces\\ejerDI22\\Tema_3\\Galeria_de_Artes\\Galeria_de_Artes\\Resources\\Galeria.db ; Version = 3;New = False; Mode=ReadWriteCreate;");
+                con = new SQLiteConnection("Data Source = "+strFullFilename+" ; Version = 3;New = False; Mode=ReadWriteCreate;");
 
                 if (con.State == System.Data.ConnectionState.Open)
                 {
@@ -1047,7 +1047,7 @@ namespace Galeria_de_Artes.Modelo.Bases_Datos
             string strAppPath = Path.GetDirectoryName(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName);
             string strFilePath = Path.Combine(strAppPath, "Resources");
             string strFullFilename = Path.Combine(strFilePath, "Galeria.db");
-            con = new SQLiteConnection("Data Source = C:\\Users\\jfeli\\OneDrive\\Escritorio\\DAM 2\\Desarrollo de interfaces\\ejerDI22\\Tema_3\\Galeria_de_Artes\\Galeria_de_Artes\\Resources\\Galeria.db ; Version = 3;New = False; Mode=ReadWriteCreate;");
+            con = new SQLiteConnection("Data Source = "+strFullFilename+" ; Version = 3;New = False; Mode=ReadWriteCreate;");
 
             string query = "INSERT INTO Opinion_Usuario (IdObra, TipoObra, IdUsuario, LikeODislike) VALUES (@IdObra, @TipoObra, @IdUsuario, @LikeODislike)";
 
@@ -1075,7 +1075,7 @@ namespace Galeria_de_Artes.Modelo.Bases_Datos
             string strAppPath = Path.GetDirectoryName(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName);
             string strFilePath = Path.Combine(strAppPath, "Resources");
             string strFullFilename = Path.Combine(strFilePath, "Galeria.db");
-            con = new SQLiteConnection("Data Source = C:\\Users\\jfeli\\OneDrive\\Escritorio\\DAM 2\\Desarrollo de interfaces\\ejerDI22\\Tema_3\\Galeria_de_Artes\\Galeria_de_Artes\\Resources\\Galeria.db ; Version = 3;New = False; Mode=ReadWriteCreate;");
+            con = new SQLiteConnection("Data Source = "+strFullFilename+" ; Version = 3;New = False; Mode=ReadWriteCreate;");
 
             if (con.State == System.Data.ConnectionState.Open)
             {
@@ -1103,7 +1103,7 @@ namespace Galeria_de_Artes.Modelo.Bases_Datos
                 string strAppPath = Path.GetDirectoryName(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName);
                 string strFilePath = Path.Combine(strAppPath, "Resources");
                 string strFullFilename = Path.Combine(strFilePath, "Galeria.db");
-                con = new SQLiteConnection("Data Source = C:\\Users\\jfeli\\OneDrive\\Escritorio\\DAM 2\\Desarrollo de interfaces\\ejerDI22\\Tema_3\\Galeria_de_Artes\\Galeria_de_Artes\\Resources\\Galeria.db ; Version = 3;New = False; Mode=ReadWriteCreate;");
+                con = new SQLiteConnection("Data Source = "+strFullFilename+" ; Version = 3;New = False; Mode=ReadWriteCreate;");
 
                 if (con.State == System.Data.ConnectionState.Open)
                 {
@@ -1139,7 +1139,7 @@ namespace Galeria_de_Artes.Modelo.Bases_Datos
             string strAppPath = Path.GetDirectoryName(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName);
             string strFilePath = Path.Combine(strAppPath, "Resources");
             string strFullFilename = Path.Combine(strFilePath, "Galeria.db");
-            con = new SQLiteConnection("Data Source = C:\\Users\\jfeli\\OneDrive\\Escritorio\\DAM 2\\Desarrollo de interfaces\\ejerDI22\\Tema_3\\Galeria_de_Artes\\Galeria_de_Artes\\Resources\\Galeria.db ; Version = 3;New = False; Mode=ReadWriteCreate;");
+            con = new SQLiteConnection("Data Source = "+strFullFilename+" ; Version = 3;New = False; Mode=ReadWriteCreate;");
             
             if (con.State == System.Data.ConnectionState.Open)
             {
@@ -1180,7 +1180,7 @@ namespace Galeria_de_Artes.Modelo.Bases_Datos
             string strAppPath = Path.GetDirectoryName(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName);
             string strFilePath = Path.Combine(strAppPath, "Resources");
             string strFullFilename = Path.Combine(strFilePath, "Galeria.db");
-            con = new SQLiteConnection("Data Source = C:\\Users\\jfeli\\OneDrive\\Escritorio\\DAM 2\\Desarrollo de interfaces\\ejerDI22\\Tema_3\\Galeria_de_Artes\\Galeria_de_Artes\\Resources\\Galeria.db ; Version = 3;New = False; Mode=ReadWriteCreate;");
+            con = new SQLiteConnection("Data Source = "+strFullFilename+" ; Version = 3;New = False; Mode=ReadWriteCreate;");
 
             if (con.State == System.Data.ConnectionState.Open)
             {
@@ -1226,7 +1226,7 @@ namespace Galeria_de_Artes.Modelo.Bases_Datos
             string strAppPath = Path.GetDirectoryName(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName);
             string strFilePath = Path.Combine(strAppPath, "Resources");
             string strFullFilename = Path.Combine(strFilePath, "Galeria.db");
-            con = new SQLiteConnection("Data Source = C:\\Users\\jfeli\\OneDrive\\Escritorio\\DAM 2\\Desarrollo de interfaces\\ejerDI22\\Tema_3\\Galeria_de_Artes\\Galeria_de_Artes\\Resources\\Galeria.db ; Version = 3;New = False; Mode=ReadWriteCreate;");
+            con = new SQLiteConnection("Data Source = "+strFullFilename+" ; Version = 3;New = False; Mode=ReadWriteCreate;");
 
             if (con.State == System.Data.ConnectionState.Open)
             {
@@ -1272,7 +1272,7 @@ namespace Galeria_de_Artes.Modelo.Bases_Datos
             string strAppPath = Path.GetDirectoryName(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName);
             string strFilePath = Path.Combine(strAppPath, "Resources");
             string strFullFilename = Path.Combine(strFilePath, "Galeria.db");
-            con = new SQLiteConnection("Data Source = C:\\Users\\jfeli\\OneDrive\\Escritorio\\DAM 2\\Desarrollo de interfaces\\ejerDI22\\Tema_3\\Galeria_de_Artes\\Galeria_de_Artes\\Resources\\Galeria.db ; Version = 3;New = False; Mode=ReadWriteCreate;");
+            con = new SQLiteConnection("Data Source = "+strFullFilename+" ; Version = 3;New = False; Mode=ReadWriteCreate;");
 
             if (con.State == System.Data.ConnectionState.Open)
             {
@@ -1423,7 +1423,7 @@ namespace Galeria_de_Artes.Modelo.Bases_Datos
                 string strAppPath = Path.GetDirectoryName(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName);
                 string strFilePath = Path.Combine(strAppPath, "Resources");
                 string strFullFilename = Path.Combine(strFilePath, "Galeria.db");
-                con = new SQLiteConnection("Data Source = C:\\Users\\jfeli\\OneDrive\\Escritorio\\DAM 2\\Desarrollo de interfaces\\ejerDI22\\Tema_3\\Galeria_de_Artes\\Galeria_de_Artes\\Resources\\Galeria.db ; Version = 3;New = False; Mode=ReadWriteCreate;");
+                con = new SQLiteConnection("Data Source = "+strFullFilename+" ; Version = 3;New = False; Mode=ReadWriteCreate;");
 
                 string query = "INSERT INTO Opiniones (IdObra, Opinion, IdUsuario) VALUES (@IdObra, @IdUsuario, @Opinion)";
 
@@ -1458,7 +1458,7 @@ namespace Galeria_de_Artes.Modelo.Bases_Datos
             string strAppPath = Path.GetDirectoryName(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName);
             string strFilePath = Path.Combine(strAppPath, "Resources");
             string strFullFilename = Path.Combine(strFilePath, "Galeria.db");
-            con = new SQLiteConnection("Data Source = C:\\Users\\jfeli\\OneDrive\\Escritorio\\DAM 2\\Desarrollo de interfaces\\ejerDI22\\Tema_3\\Galeria_de_Artes\\Galeria_de_Artes\\Resources\\Galeria.db ; Version = 3;New = False; Mode=ReadWriteCreate;");
+            con = new SQLiteConnection("Data Source = "+strFullFilename+" ; Version = 3;New = False; Mode=ReadWriteCreate;");
 
             if (con.State == System.Data.ConnectionState.Open)
             {
@@ -1486,7 +1486,7 @@ namespace Galeria_de_Artes.Modelo.Bases_Datos
                 string strAppPath = Path.GetDirectoryName(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName);
                 string strFilePath = Path.Combine(strAppPath, "Resources");
                 string strFullFilename = Path.Combine(strFilePath, "Galeria.db");
-                con = new SQLiteConnection("Data Source = C:\\Users\\jfeli\\OneDrive\\Escritorio\\DAM 2\\Desarrollo de interfaces\\ejerDI22\\Tema_3\\Galeria_de_Artes\\Galeria_de_Artes\\Resources\\Galeria.db ; Version = 3;New = False; Mode=ReadWriteCreate;");
+                con = new SQLiteConnection("Data Source = "+strFullFilename+" ; Version = 3;New = False; Mode=ReadWriteCreate;");
 
                 if (con.State == System.Data.ConnectionState.Open)
                 {
@@ -1523,7 +1523,7 @@ namespace Galeria_de_Artes.Modelo.Bases_Datos
             string strFilePath = Path.Combine(strAppPath, "Resources");
             string strFullFilename = Path.Combine(strFilePath, "Galeria.db");
 
-            con = new SQLiteConnection("Data Source = C:\\Users\\jfeli\\OneDrive\\Escritorio\\DAM 2\\Desarrollo de interfaces\\ejerDI22\\Tema_3\\Galeria_de_Artes\\Galeria_de_Artes\\Resources\\Galeria.db ; Version = 3;New = False; Mode=ReadWriteCreate;");
+            con = new SQLiteConnection("Data Source = "+strFullFilename+" ; Version = 3;New = False; Mode=ReadWriteCreate;");
 
             if (con.State == System.Data.ConnectionState.Open)
             {
@@ -1561,7 +1561,7 @@ namespace Galeria_de_Artes.Modelo.Bases_Datos
             string strAppPath = Path.GetDirectoryName(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName);
             string strFilePath = Path.Combine(strAppPath, "Resources");
             string strFullFilename = Path.Combine(strFilePath, "Galeria.db");
-            con = new SQLiteConnection("Data Source = C:\\Users\\jfeli\\OneDrive\\Escritorio\\DAM 2\\Desarrollo de interfaces\\ejerDI22\\Tema_3\\Galeria_de_Artes\\Galeria_de_Artes\\Resources\\Galeria.db ; Version = 3;New = False; Mode=ReadWriteCreate;");
+            con = new SQLiteConnection("Data Source = "+strFullFilename+" ; Version = 3;New = False; Mode=ReadWriteCreate;");
 
             if (con.State == System.Data.ConnectionState.Open)
             {
@@ -1603,7 +1603,7 @@ namespace Galeria_de_Artes.Modelo.Bases_Datos
             string strAppPath = Path.GetDirectoryName(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName);
             string strFilePath = Path.Combine(strAppPath, "Resources");
             string strFullFilename = Path.Combine(strFilePath, "Galeria.db");
-            con = new SQLiteConnection("Data Source = C:\\Users\\jfeli\\OneDrive\\Escritorio\\DAM 2\\Desarrollo de interfaces\\ejerDI22\\Tema_3\\Galeria_de_Artes\\Galeria_de_Artes\\Resources\\Galeria.db ; Version = 3;New = False; Mode=ReadWriteCreate;");
+            con = new SQLiteConnection("Data Source = "+strFullFilename+"; Version = 3;New = False; Mode=ReadWriteCreate;");
 
             if (con.State == System.Data.ConnectionState.Open)
             {
@@ -1638,7 +1638,7 @@ namespace Galeria_de_Artes.Modelo.Bases_Datos
             string strFilePath = Path.Combine(strAppPath, "Resources");
             string opi = "";
             string strFullFilename = Path.Combine(strFilePath, "Galeria.db");
-            con = new SQLiteConnection("Data Source = C:\\Users\\jfeli\\OneDrive\\Escritorio\\DAM 2\\Desarrollo de interfaces\\ejerDI22\\Tema_3\\Galeria_de_Artes\\Galeria_de_Artes\\Resources\\Galeria.db ; Version = 3;New = False; Mode=ReadWriteCreate;");
+            con = new SQLiteConnection("Data Source = "+strFullFilename+" ; Version = 3;New = False; Mode=ReadWriteCreate;");
 
             con.Open();
 
@@ -1676,7 +1676,7 @@ namespace Galeria_de_Artes.Modelo.Bases_Datos
             string strAppPath = Path.GetDirectoryName(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName);
             string strFilePath = Path.Combine(strAppPath, "Resources");
             string strFullFilename = Path.Combine(strFilePath, "Galeria.db");
-            con = new SQLiteConnection("Data Source = C:\\Users\\jfeli\\OneDrive\\Escritorio\\DAM 2\\Desarrollo de interfaces\\ejerDI22\\Tema_3\\Galeria_de_Artes\\Galeria_de_Artes\\Resources\\Galeria.db ; Version = 3;New = False; Mode=ReadWriteCreate;");
+            con = new SQLiteConnection("Data Source = "+strFullFilename+" ; Version = 3;New = False; Mode=ReadWriteCreate;");
 
             string query = "INSERT INTO Opiniones_App (IdObra, ContLikes, ContDislikes) VALUES (@IdObra, @ContLikes, @contDisl)";
 
@@ -1705,7 +1705,7 @@ namespace Galeria_de_Artes.Modelo.Bases_Datos
             string strAppPath = Path.GetDirectoryName(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName);
             string strFilePath = Path.Combine(strAppPath, "Resources");
             string strFullFilename = Path.Combine(strFilePath, "Galeria.db");
-            con = new SQLiteConnection("Data Source = C:\\Users\\jfeli\\OneDrive\\Escritorio\\DAM 2\\Desarrollo de interfaces\\ejerDI22\\Tema_3\\Galeria_de_Artes\\Galeria_de_Artes\\Resources\\Galeria.db ; Version = 3;New = False; Mode=ReadWriteCreate;");
+            con = new SQLiteConnection("Data Source = "+strFullFilename+" ; Version = 3;New = False; Mode=ReadWriteCreate;");
 
             if (con.State == System.Data.ConnectionState.Open)
             {
@@ -1735,7 +1735,7 @@ namespace Galeria_de_Artes.Modelo.Bases_Datos
                     string strAppPath = Path.GetDirectoryName(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName);
                     string strFilePath = Path.Combine(strAppPath, "Resources");
                     string strFullFilename = Path.Combine(strFilePath, "Galeria.db");
-                    con = new SQLiteConnection("Data Source = C:\\Users\\jfeli\\OneDrive\\Escritorio\\DAM 2\\Desarrollo de interfaces\\ejerDI22\\Tema_3\\Galeria_de_Artes\\Galeria_de_Artes\\Resources\\Galeria.db ; Version = 3;New = False; Mode=ReadWriteCreate;");
+                    con = new SQLiteConnection("Data Source = "+strFullFilename+" ; Version = 3;New = False; Mode=ReadWriteCreate;");
 
                     if (con.State == System.Data.ConnectionState.Open)
                     {
@@ -1760,7 +1760,7 @@ namespace Galeria_de_Artes.Modelo.Bases_Datos
                     string strAppPath = Path.GetDirectoryName(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName);
                     string strFilePath = Path.Combine(strAppPath, "Resources");
                     string strFullFilename = Path.Combine(strFilePath, "Galeria.db");
-                    con = new SQLiteConnection("Data Source = C:\\Users\\jfeli\\OneDrive\\Escritorio\\DAM 2\\Desarrollo de interfaces\\ejerDI22\\Tema_3\\Galeria_de_Artes\\Galeria_de_Artes\\Resources\\Galeria.db ; Version = 3;New = False; Mode=ReadWriteCreate;");
+                    con = new SQLiteConnection("Data Source = "+strFullFilename+" ; Version = 3;New = False; Mode=ReadWriteCreate;");
 
                     if (con.State == System.Data.ConnectionState.Open)
                     {
@@ -1785,7 +1785,7 @@ namespace Galeria_de_Artes.Modelo.Bases_Datos
                     string strAppPath = Path.GetDirectoryName(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName);
                     string strFilePath = Path.Combine(strAppPath, "Resources");
                     string strFullFilename = Path.Combine(strFilePath, "Galeria.db");
-                    con = new SQLiteConnection("Data Source = C:\\Users\\jfeli\\OneDrive\\Escritorio\\DAM 2\\Desarrollo de interfaces\\ejerDI22\\Tema_3\\Galeria_de_Artes\\Galeria_de_Artes\\Resources\\Galeria.db ; Version = 3;New = False; Mode=ReadWriteCreate;");
+                    con = new SQLiteConnection("Data Source = "+strFullFilename+" ; Version = 3;New = False; Mode=ReadWriteCreate;");
 
                     if (con.State == System.Data.ConnectionState.Open)
                     {
@@ -1833,7 +1833,7 @@ namespace Galeria_de_Artes.Modelo.Bases_Datos
             string strAppPath = Path.GetDirectoryName(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName);
             string strFilePath = Path.Combine(strAppPath, "Resources");
             string strFullFilename = Path.Combine(strFilePath, "Galeria.db");
-            con = new SQLiteConnection("Data Source = C:\\Users\\jfeli\\OneDrive\\Escritorio\\DAM 2\\Desarrollo de interfaces\\ejerDI22\\Tema_3\\Galeria_de_Artes\\Galeria_de_Artes\\Resources\\Galeria.db ; Version = 3;New = False; Mode=ReadWriteCreate;");
+            con = new SQLiteConnection("Data Source = "+strFullFilename+" ; Version = 3;New = False; Mode=ReadWriteCreate;");
 
             if (con.State == System.Data.ConnectionState.Open)
             {
@@ -1876,7 +1876,7 @@ namespace Galeria_de_Artes.Modelo.Bases_Datos
             string strAppPath = Path.GetDirectoryName(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName);
             string strFilePath = Path.Combine(strAppPath, "Resources");
             string strFullFilename = Path.Combine(strFilePath, "Galeria.db");
-            con = new SQLiteConnection("Data Source = C:\\Users\\jfeli\\OneDrive\\Escritorio\\DAM 2\\Desarrollo de interfaces\\ejerDI22\\Tema_3\\Galeria_de_Artes\\Galeria_de_Artes\\Resources\\Galeria.db ; Version = 3;New = False; Mode=ReadWriteCreate;");
+            con = new SQLiteConnection("Data Source = "+strFullFilename+" ; Version = 3;New = False; Mode=ReadWriteCreate;");
 
             if (con.State == System.Data.ConnectionState.Open)
             {
