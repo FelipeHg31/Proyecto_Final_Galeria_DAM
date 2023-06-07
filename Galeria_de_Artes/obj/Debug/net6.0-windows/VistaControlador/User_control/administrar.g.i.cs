@@ -397,7 +397,7 @@ namespace Galeria_de_Artes.VistaControlador.User_control {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Galeria_de_Artes;component/vistacontrolador/user_control/administrar.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/BARTOPI;component/vistacontrolador/user_control/administrar.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\VistaControlador\User_control\administrar.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

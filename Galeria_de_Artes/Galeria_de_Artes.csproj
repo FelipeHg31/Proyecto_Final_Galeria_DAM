@@ -6,6 +6,7 @@
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <AssemblyName>BARTOPI</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

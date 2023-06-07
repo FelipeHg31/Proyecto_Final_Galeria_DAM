@@ -40,19 +40,19 @@
     <Preliminary>False</Preliminary>
     <SdkLinkTarget>Blank</SdkLinkTarget>
     <DocumentationSources>
-      <DocumentationSource sourceFile="..\Galeria_de_Artes\bin\Debug\net6.0-windows\Galeria_de_Artes.dll" xmlns="" />
-      <DocumentationSource sourceFile="..\Galeria_de_Artes\bin\Debug\net6.0-windows\Galeria_de_Artes.xml" xmlns="" />
+      <DocumentationSource sourceFile="..\Galeria_de_Artes\bin\Debug\net6.0-windows\BARTOPI.dll" />
+      <DocumentationSource sourceFile="..\Galeria_de_Artes\bin\Debug\net6.0-windows\BARTOPI.xml" />
     </DocumentationSources>
-    <HelpFileFormat>Website</HelpFileFormat>
+    <HelpFileFormat>HtmlHelp1, Website</HelpFileFormat>
     <SyntaxFilters>Standard</SyntaxFilters>
-    <PresentationStyle>Default2022</PresentationStyle>
+    <PresentationStyle>VS2013</PresentationStyle>
     <CleanIntermediates>True</CleanIntermediates>
     <KeepLogFile>True</KeepLogFile>
     <DisableCodeBlockComponent>False</DisableCodeBlockComponent>
     <IndentHtml>False</IndentHtml>
     <BuildAssemblerVerbosity>OnlyWarningsAndErrors</BuildAssemblerVerbosity>
     <SaveComponentCacheCapacity>100</SaveComponentCacheCapacity>
-    <VisibleItems>Attributes, ExplicitInterfaceImplementations, InheritedMembers, InheritedFrameworkMembers, InheritedFrameworkInternalMembers, InheritedFrameworkPrivateMembers, Internals, Privates, PrivateFields, Protected, SealedProtected, ProtectedInternalAsProtected, NonBrowsable</VisibleItems>
+    <VisibleItems>ExplicitInterfaceImplementations, Internals, Privates, PrivateFields, Protected, SealedProtected, ProtectedInternalAsProtected, NonBrowsable</VisibleItems>
   </PropertyGroup>
   <!-- There are no properties for these groups.  AnyCPU needs to appear in order for Visual Studio to perform
 			 the build.  The others are optional common platform types that may appear. -->

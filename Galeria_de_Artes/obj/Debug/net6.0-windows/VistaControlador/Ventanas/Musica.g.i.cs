@@ -165,7 +165,7 @@ namespace Galeria_de_Artes.VistaControlador.Ventanas {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Galeria_de_Artes;component/vistacontrolador/ventanas/musica.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/BARTOPI;component/vistacontrolador/ventanas/musica.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\VistaControlador\Ventanas\Musica.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

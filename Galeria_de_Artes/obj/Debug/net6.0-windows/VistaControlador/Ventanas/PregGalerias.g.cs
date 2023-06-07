@@ -125,7 +125,7 @@ namespace Galeria_de_Artes.VistaControlador.Ventanas {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Galeria_de_Artes;component/vistacontrolador/ventanas/preggalerias.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/BARTOPI;component/vistacontrolador/ventanas/preggalerias.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\VistaControlador\Ventanas\PregGalerias.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
